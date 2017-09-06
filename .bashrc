@@ -20,6 +20,9 @@ fi
 PS1="[\u@\[\e[0;34m\]\h\[\e[0m\]]: \[\033[33m\]\w\[\033[0m\]\[\033[36m\]\$(__git_ps1)\[\033[00m\]\n\$ "
 
 # git-completion.bash / git-prompt.sh
+# wget https://raw.github.com/git/git/master/contrib/completion/git-completion.bash wget
+# https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+# が必要
 if [ -f /root/git-completion.bash ]; then
     source /root/git-completion.bash
 fi
