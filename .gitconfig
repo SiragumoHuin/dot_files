@@ -20,3 +20,6 @@ difff = diff --word-diff
 
 # カレントブランチをpushする
 p = !git push origin `git rev-parse --abbrev-ref HEAD`
+
+[color]
+ui = true
