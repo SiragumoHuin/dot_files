@@ -5,6 +5,7 @@
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias la='ll -a'
 alias grep="grep --color"
 alias ..='cd ..'
 
